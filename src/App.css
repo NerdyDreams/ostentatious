@@ -1,0 +1,19 @@
+/* Nav bar */
+.navbar-nav a{
+  font-size: 18px;
+}
+
+:root{
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffc;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+}
+
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  border-radius: 0 !important;
+}
