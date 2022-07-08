@@ -90,7 +90,7 @@ function SignUp() {
                     Check me out
                   </label>
                 </div>
-                <button type="submit" className="btn btn-outline-success w-100 mt-5">
+                <button type="submit" className="btn btn-outline-success w-100 mt-4">
                   Register
                 </button>
               </form>

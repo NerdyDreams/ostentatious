@@ -8,8 +8,8 @@ const Home = () => {
         <img src="/assets/bg.jpg" className="card-img" alt="Background" height="550px" />
         <div className="card-img-overlay">
             <div>
-            <h5 className="card-title display-3 fw-bolder mb-0">NEW SEASON ARRIVALS</h5>
-          <p className="card-text lead fs-2">
+            <h5 className="card-title display-3 fw-bolder mb-0 text-secondary">NEW SEASON ARRIVALS</h5>
+          <p className="card-text lead text-secondary fs-2">
             CHECK OUT ALL THE TRENDS
           </p>
 
