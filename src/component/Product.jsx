@@ -3,13 +3,13 @@ import { NavLink, useParams } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { addCart, delCart } from "../redux/action/index";
 import Skeleton from "react-loading-skeleton";
-import { ButtonContainer } from "./Button";
+
 
 const Product = () => {
   const { id } = useParams();
   const [product, setProduct] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [cartBtn, setCartBtn] = useState("Add to Cart");
+ 
 
   const dispatch = useDispatch();
   const addProduct = (product) => {
@@ -86,6 +86,10 @@ const Product = () => {
               addProduct(product);
             }}
           >Add to Cart</button>
+          <NavLink to={"/products"} className="btn btn-outline-dark mx-2 px-4 py-2">
+            {" "}
+            Back to shopping
+          </NavLink>
           <NavLink to={"/cart"} className="btn btn-warning ms-2 px-3 py-2">
             {" "}
             Go to Cart
