@@ -8,6 +8,7 @@ import Product from './component/Product';
 import Cart from './component/Cart';
 import Checkout from './component/Checkout';
 import Contact from './component/Contact';
+import About from './component/About';
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
         <Route path="/products/:id" element={<Product/>} />
         <Route path="/checkout" element={<Checkout/>} />
         <Route path="/cart" element={<Cart/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/contact" element={<Contact/>} />
       </Routes>
       
     </>
