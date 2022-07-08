@@ -7,6 +7,8 @@ import Products from './component/Products';
 import Product from './component/Product';
 import Cart from './component/Cart';
 import Checkout from './component/Checkout';
+import Contact from './component/Contact';
+
 
 function App() {
   return (
